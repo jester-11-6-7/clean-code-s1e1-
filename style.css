@@ -5,7 +5,7 @@ body {
     font-family: Lato, sans-serif;
 }
 input,button{
-    outline:none;
+    outline: none;
 }
 button {
     background: none;
@@ -36,7 +36,7 @@ button:hover {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 .header { text-align: center;
 }
 }
@@ -58,12 +58,12 @@ button:hover {
 }
 
 .ul-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 li, .title {
-    list-style:none;
+    list-style: none;
 }
 
 /* Heading */
@@ -153,14 +153,14 @@ li input[type="text"] {
 
 /* Edit Task */
 .ul-list li input[type=text] {
-    display:none
+    display: none
 }
 
 .ul-list li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .ul-list li.edit-mode label {
-    display:none;
+    display: none;
 }
