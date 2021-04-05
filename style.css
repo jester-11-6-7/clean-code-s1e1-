@@ -4,7 +4,8 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-input,button{
+input,
+button{
     outline: none;
 }
 button {
@@ -62,7 +63,8 @@ button:hover {
     padding: 0px;
 }
 
-li, .title {
+li,
+.title {
     list-style: none;
 }
 
